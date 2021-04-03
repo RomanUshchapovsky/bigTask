@@ -45,11 +45,12 @@ const page = useRef(1)
                 onChange={handleSearch} />
             <button onClick={()=>prev()} >prev</button>
             <button onClick={()=>next()} >next</button>
-
             <div className={style.CartBlock}>
                 <RenderCart cart={!!productSearch.length ? productSearch : products} />
             </div>
         </div>
     );
 };
+// 
+
 export default MainView;
