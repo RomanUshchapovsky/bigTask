@@ -1,0 +1,17 @@
+.BasketBlock{ 
+    width: 100%;
+    min-height: 100%;
+    background-color: rgb(34, 190, 13);  
+}
+.Cart {
+    float: left;
+    text-align: center;
+    width: 200px;
+    height: 240px;
+    margin: 20px 10px 0 10px;
+    background-color: rgb(133, 57, 168);
+   margin-bottom: 30px;
+}
+.Calculate {
+    margin: 20px 0 0 -40px;
+}

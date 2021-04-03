@@ -1,0 +1,26 @@
+.CreateEditView{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(187, 228, 74);  
+}
+.Cart {
+    margin: 0 auto;
+    text-align: center;
+    width: 25%;
+    height: 400px;
+    background-color: rgb(133, 57, 168);  
+}
+.CartInput {
+    height: 40px;
+    width: 80%;
+    margin: 10px;
+}
+.CartTextarea {
+    height: 150px;
+    width: 80%;
+}
+.SaveCart {
+    width: 180px;
+    margin-top: 50px;
+    background-color: rgb(235, 202, 14);
+}

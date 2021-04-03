@@ -1,0 +1,9 @@
+.formBlock {
+    width: 500px;
+    height: 500px;
+    background-color: rgb(173, 196, 109); 
+    margin: 0 auto;
+}
+.formBlock h1 {
+    text-align: center;
+}

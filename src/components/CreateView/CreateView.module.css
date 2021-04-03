@@ -1,0 +1,52 @@
+.CreateEditView {
+    width: 100%;
+    height: 500px;
+    background-color: rgb(187, 228, 74); 
+}
+.Cart {
+    margin: 0 auto;
+    text-align: center;
+    width: 25%;
+    height: 500px;
+    background-color: rgb(133, 57, 168);  
+}
+.CartInput {
+    height: 40px;
+    width: 80%;
+    margin: 10px;
+}
+.CartTextarea {
+    height: 150px;
+    width: 80%;
+}
+.SaveCart {
+    position: fixed;
+    top: 480px;
+    left: 590px;
+    width: 180px;
+    margin-top: 50px;
+    background-color: rgb(235, 202, 14);
+}
+
+.form__error {
+    color: red;
+    text-align: left;
+    font-size: 12px;
+    display: block;
+    margin-top: 3px;
+    display: none;
+}
+input:valid:not(:placeholder-shown) {
+    border:solid green;
+
+}
+
+input:invalid:not(:placeholder-shown) {
+    border: medium dashed red;
+}
+input:invalid:not(:placeholder-shown) + .form__error {
+    display: block;
+}
+input:invalid:required {
+    background-image: linear-gradient(to right, pink, lightgreen);
+  }

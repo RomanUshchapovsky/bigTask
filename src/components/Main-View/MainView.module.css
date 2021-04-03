@@ -1,0 +1,22 @@
+.MainView{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(22, 214, 221);
+}
+.CartBlock {
+    margin-left: 50px;
+}
+.Cart {
+    float: left;
+    text-align: center;
+    width: 200px;
+    height: 240px;
+    margin: 20px 10px 0 10px;
+    background-color: rgb(133, 57, 168);  
+}
+.CartBtn {
+    margin-top: 25px;
+}
+.PriseColor {
+    color: rgb(195, 236, 100);
+}

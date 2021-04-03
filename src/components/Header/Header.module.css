@@ -1,0 +1,9 @@
+.header {
+    grid-area: h;
+    display: inline-flex;
+    align-items: center;
+    background-color: rgb(40, 158, 138);  
+}
+.header_item {
+margin: 0 auto;
+}
